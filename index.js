@@ -23,6 +23,6 @@ function getDay(){
     if (weekday == true) {
         document.getElementById("day").innerHTML = "Nous sommes jour " + schoolday;
     } else {
-        document.getElementById("day").innerHTML = "Nous serons " + schoolday + " lundi.";
+        document.getElementById("day").innerHTML = "Nous serons jour " + schoolday + " lundi.";
     }
 }
