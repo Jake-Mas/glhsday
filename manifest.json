@@ -1,0 +1,14 @@
+{
+    "name": "glhsday",
+    "short_name": "Quel jour?",
+    "start_url": "",
+    "display": "fullscreen",
+    "theme_color": "rgb(36, 36, 36)",
+    "icons": [
+        {
+        "src": "favicon.ico",
+        "sizes": "128x128",
+        "type": "image/x-icon"
+        }
+    ]
+}
