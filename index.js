@@ -1,5 +1,5 @@
 function getDay(){
-    let offset = 0
+    let offset = -1;
     let day = new Date();
     let currentDate = day.getTime();
     let compareDate = new Date("January 29, 2024 00:00:00").getTime();
@@ -19,7 +19,10 @@ function getDay(){
     let weekends = weekspassed * 2;
     daydiff = daydiff - weekends;
     let schoolday = (daydiff % 4) + 1;
-    schoolday = schoolday + offset
+    schoolday = schoolday + offset;
+    if (schoolday == 0) {
+        schoolday = 4
+    }
     if (weekday == true) {
         document.getElementById("day").innerHTML = "Nous sommes jour " + schoolday;
     } else {
