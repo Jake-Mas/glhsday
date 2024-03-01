@@ -20,8 +20,8 @@ function getDay(){
     daydiff = daydiff - weekends;
     let schoolday = (daydiff % 4) + 1;
     schoolday = schoolday + offset;
-    if (schoolday == 0) {
-        schoolday = 4
+    while (schoolday < 1) {
+        schoolday += 4
     }
     if (weekday == true) {
         document.getElementById("day").innerHTML = "Nous sommes jour " + schoolday;
