@@ -24,9 +24,8 @@ function getDay(){
         schoolday += 4
     }
     if (weekday == true) {
-        // document.getElementById("day").innerHTML = "Nous sommes jour " + schoolday;
+        document.getElementById("day").innerHTML = "Nous sommes jour " + schoolday;
     } else {
-        // document.getElementById("day").innerHTML = "Nous serons jour " + schoolday + " lundi.";
+        document.getElementById("day").innerHTML = "Nous serons jour " + schoolday + " lundi.";
     }
-    document.getElementById("day").innerHTML = "Nous serons jour 3 mardi.";
 }
