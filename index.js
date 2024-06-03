@@ -1,5 +1,5 @@
 function getDay(){
-    let offset = -2;
+    let offset = -3;
     let day = new Date();
     let currentDate = day.getTime();
     let compareDate = new Date("January 29, 2024 00:00:00").getTime();
